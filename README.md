@@ -1,2 +1,2 @@
-# SwaashSeva
+# SwaasthSeva
 A healthcare website project for SNW Capstone — SwaasthSeva: Serving Wellness with Care.
