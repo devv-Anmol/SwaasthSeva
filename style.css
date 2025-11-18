@@ -326,3 +326,126 @@ footer {
 .btn-yellow:hover {
   background-color: #FFC107;
 }
+
+/* meet our docts css */
+.doctors {
+  padding: 60px 20px;
+  background: #f7f9fc;
+  text-align: center;
+}
+
+.doctors h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.doc-intro {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.doctor-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.doctor-card {
+  background: #fff;
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.doctor-card:hover {
+  transform: translateY(-8px);
+}
+
+.doctor-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+/* ===== Login Page ===== */
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f6f6f6;
+    padding: 20px;
+}
+
+.login-box {
+    background: #ffffff;
+    padding: 40px 35px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 10px;
+    color: #1ca67a;
+    font-size: 28px;
+}
+
+.login-subtext {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-box label {
+    text-align: left;
+    font-size: 14px;
+    color: #444;
+}
+
+.login-box input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.btn-login {
+    padding: 12px;
+    background: #1ca67a;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background: #188b66;
+}
+
+.signup-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #1ca67a;
+    text-decoration: none;
+    font-weight: 600;
+}
