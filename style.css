@@ -59,12 +59,12 @@ body {
   /* background-color: #1CA67A; fallback color */
 }
 
-.hero-content {
+/* .hero-content {
   display: flex;
   justify-content: center;
   height: 650px;
-  width: 1900px;
-}
+  width: 1500px;
+} */
 .himg{
   height: 650;
   width: 1550px;
