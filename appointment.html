@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Appointment | SwaasthSeva</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <section class="login-container">
+        <div class="login-box">
+            <h2>Book an Appointment</h2>
+            <p class="login-subtext">Schedule your visit with our trusted doctors.</p>
+
+            <form action="#">
+
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" required>
+
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" required>
+
+                <label>Phone Number</label>
+                <input type="tel" placeholder="Enter your phone number" required>
+
+                <label>Select Doctor</label>
+                <select required>
+                    <option value="" disabled selected>Select a doctor</option>
+                    <option>Dr. Aditi Sharma (General Physician)</option>
+                    <option>Dr. Ranveer Khanna (Cardiologist)</option>
+                    <option>Dr. Meera Nair (Dermatologist)</option>
+                    <option>Dr. Raghav Rao (Child Specialist)</option>
+                </select>
+
+                <label>Preferred Date</label>
+                <input type="date" required>
+
+                <label>Preferred Time</label>
+                <input type="time" required>
+
+                <label>Message (Optional)</label>
+                <textarea placeholder="Write your message..." rows="3"></textarea>
+
+                <button type="submit" class="btn-login">Confirm Appointment</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
 
