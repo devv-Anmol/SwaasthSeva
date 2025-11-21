@@ -408,3 +408,90 @@ footer {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
+/* responsive media */
+
+/*  For tablets (max-width: 992px) */
+@media screen and (max-width: 992px) {
+
+  /* Navbar */
+  .navbar {
+    padding: 12px 30px;
+  }
+  .nav-links {
+    gap: 20px;
+  }
+
+  /* Hero Image */
+  .himg {
+    height: 450px;
+  }
+
+  /* Steps Container */
+  .steps-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .step img {
+    width: 80%;
+  }
+
+  /* Doctor Cards */
+  .doctors-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Forms */
+  .form-container {
+    width: 80%;
+  }
+}
+
+/*  For mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+
+  /* Navbar becomes stacked */
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* Hero */
+  .himg {
+    height: 350px;
+  }
+
+  /* Steps */
+  .step img {
+    width: 100%;
+  }
+
+  /* Doctors section */
+  .doctors-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* Text sizes */
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+  /* Forms */
+  .form-container {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
