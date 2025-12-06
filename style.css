@@ -479,3 +479,64 @@ footer {
 .btn-yellow:hover {
   background: #e6d100;
 }
+
+
+
+/* responsive */
+
+@media (max-width: 1024px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-card img {
+    height: 180px;
+  }
+}
+
+/* tab  */
+@media (max-width: 768px) {
+  .services h2 {
+    font-size: 1.9rem;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    padding: 20px;
+  }
+
+  .service-card img {
+    height: 170px;
+  }
+}
+
+/* mobile phones */
+@media (max-width: 480px) {
+
+  .services {
+    padding: 20px 0;
+  }
+
+  .services h2 {
+    font-size: 1.7rem;
+  }
+
+  .service-card {
+    padding: 18px;
+  }
+
+  .service-card img {
+    height: 150px;
+  }
+
+  .service-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .service-card p {
+    font-size: 0.9rem;
+  }
+}
